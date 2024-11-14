@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
                 } else {
                     startButton.text = "Resume"
+                    timerBinder.pause()
                     counter++
                 }
             }
